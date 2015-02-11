@@ -1,0 +1,5 @@
+D:\Документы\Documents\Visual Studio 2008\Projects\Проект\Проект\obj\Debug\ResolveAssemblyReference.cache
+D:\Документы\Documents\Visual Studio 2008\Projects\Проект\Проект\bin\Debug\Проект.exe
+D:\Документы\Documents\Visual Studio 2008\Projects\Проект\Проект\bin\Debug\Проект.pdb
+D:\Документы\Documents\Visual Studio 2008\Projects\Проект\Проект\obj\Debug\Проект.exe
+D:\Документы\Documents\Visual Studio 2008\Projects\Проект\Проект\obj\Debug\Проект.pdb
