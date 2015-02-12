@@ -1,0 +1,5 @@
+D:\Документы\Documents\Visual Studio 2008\Projects\Calcul\Calcul\bin\Debug\Calcul.exe
+D:\Документы\Documents\Visual Studio 2008\Projects\Calcul\Calcul\bin\Debug\Calcul.pdb
+D:\Документы\Documents\Visual Studio 2008\Projects\Calcul\Calcul\obj\Debug\ResolveAssemblyReference.cache
+D:\Документы\Documents\Visual Studio 2008\Projects\Calcul\Calcul\obj\Debug\Calcul.exe
+D:\Документы\Documents\Visual Studio 2008\Projects\Calcul\Calcul\obj\Debug\Calcul.pdb
