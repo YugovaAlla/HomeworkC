@@ -7,9 +7,8 @@ namespace Calcul
 {
     interface INF
     {
-        void iSub();
-        void dSub();
-        void dDiv();
-
+        void ISub();
+        void DSub();
+        void DDiv();
     }
 }
