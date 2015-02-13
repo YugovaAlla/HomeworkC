@@ -5,10 +5,15 @@ using System.Text;
 
 namespace Calcul
 {
-    interface INF
+    
+    public interface ICalc
     {
-        void ISub();
-        void DSub();
-        void DDiv();
+        #region Methods
+        double Summ(int a, int b);
+        double Summ(double a, double b);
+        double Multiply(int a, int b);
+        double Multiply(double a, double b);
+        #endregion
     }
+
 }

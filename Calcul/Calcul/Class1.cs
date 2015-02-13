@@ -1,51 +1,37 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace Calcul
 {
     public class Task : INF
     {
-        private int iNum1;
-        private int iNum2;
-        private double dNum1;
-        private double dNum2;
 
-        public Task(string st1, string st2)
+        public void Sub(int a, int b)
         {
-            if (st1.Contains(",") | st2.Contains(","))
-            {
-                dNum1 = Convert.ToDouble(st1);
-                dNum2 = Convert.ToDouble(st2);
-            }
-            else
-            {
-                iNum1 = Convert.ToInt32(st1);
-                iNum2 = Convert.ToInt32(st2);
-            }
+            int d = a - b;
+            Console.WriteLine("{0}-{1}={2}", a, b, d);
         }
 
-        public void ISub()
-        {
-            int d = iNum1 - iNum2;
-            Console.WriteLine("{0}-{1}={2}", iNum1, iNum2, d);
-        }
-
-        public void DDiv()
+        public void Div(double a, double b)
         {
 
-            if (Math.Abs(dNum2) < 0.00001)
+            if (Math.Abs(b) < 0.00001)
                 Console.WriteLine("На ноль делить нельзя");
             else
             {
-                double ff = dNum1 / dNum2;
-                Console.WriteLine("{0}/{1}={2}", dNum1, dNum2, ff);
+                double ff = a / b;
+                Console.WriteLine("{0}/{1}={2}", a, b, ff);
             }
 
         }
 
-        public void DSub()
+        public void Sub(double a, double b)
         {
-            double dd = dNum1 - dNum2;
-            Console.WriteLine("{0}-{1}={2}", dNum1, dNum2, dd);
+            double dd = a - b;
+            Console.WriteLine("{0}-{1}={2}", a, b, dd);
         }
     }
+
 }
